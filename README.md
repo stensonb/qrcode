@@ -33,13 +33,13 @@ Usage:
   1. Output a text-art QR code to the terminal:
        echo "hello world" | qrcode
 
-  2. Save a PNG file:
+  2. Save a PNG image to file:
        echo "hello world" | qrcode > out.png
 
-  3. Pipe PNG byte stream to 'display' (on any X server):
+  3. Pipe PNG image to 'display' (on any X server):
        echo "hello world" | qrcode | display
 
-  4. Force output to PNG byte stream, when writing to a terminal-based STDOUT:
+  4. Force output to PNG image (just the bytes), when writing to a terminal-based STDOUT:
        echo "hello world" | qrcode -t=false
 ```
 
