@@ -20,7 +20,7 @@ func main() {
 	disableBorder := flag.Bool("d", false, "disable QR Code border")
 	flag.Usage = func() {
 		fmt.Fprintf(os.Stderr, `qrcode -- QR Code encoder in Go
-https://github.com/skip2/go-qrcode
+https://github.com/stensonb/qrcode
 
 Flags:
 `)
