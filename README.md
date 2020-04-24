@@ -2,6 +2,8 @@
 
 A simple QR Code generator, using [https://github.com/skip2/go-qrcode/](https://github.com/skip2/go-qrcode/)
 
+This is LARGELY based on the sample CLI from go-qrcode (above), but takes input from stdin, and infers how the output should look (based on whether this is run from a terminal or not).
+
 ## Install
 
 ```
