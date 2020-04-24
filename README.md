@@ -15,7 +15,7 @@ A command-line tool `qrcode` will be built into `$GOPATH/bin/`.
 ```
 $ qrcode -h
 qrcode -- QR Code encoder in Go
-https://github.com/skip2/go-qrcode
+https://github.com/stensonb/qrcode
 
 Flags:
   -d	disable QR Code border
