@@ -39,8 +39,6 @@ Usage:
 
   4. Force output to PNG byte stream, when writing to a terminal-based STDOUT:
        echo "hello world" | qrcode -t=false
-
-$
 ```
 
 ## Maximum capacity
