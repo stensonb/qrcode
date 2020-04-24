@@ -1,6 +1,6 @@
 # qrcode #
 
-A simple QR Code generator, using github.com/skip2/go-qrcode
+A simple QR Code generator, using [https://github.com/skip2/go-qrcode/](https://github.com/skip2/go-qrcode/)
 
 ## Install
 
